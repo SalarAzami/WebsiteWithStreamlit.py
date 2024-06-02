@@ -34,9 +34,10 @@ with st.container():
 
 #   ----LOAD ASSETS -----
 lottie_coding = load_lottieurl("https://lottie.host/8ca41b88-90ca-4b4f-be25-7f5329eb6d77/AHQuvR8ESg.json")
-imag_path = r"C:\Users\Teilnehmer\Desktop\website\images\Designer.jpeg"
+imag_path = "images/Designer.jpeg"
 img_contact_form = Image.open(imag_path)
 st.image(img_contact_form)
+
 
 
 
