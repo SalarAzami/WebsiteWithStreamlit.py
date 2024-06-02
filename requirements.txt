@@ -1,2 +1,3 @@
 streamlit
 streamlit-lottie
+some-other-package
