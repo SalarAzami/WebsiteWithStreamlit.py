@@ -1,2 +1,2 @@
+streamlit
 streamlit-lottie
-git add requirements.txt
