@@ -80,8 +80,8 @@ with st.container():
     st.write("##")
     
     image_column, text_column = st.columns((1, 2))
-    
-    imag_path = r"C:\Users\Teilnehmer\Desktop\website\images\yek.png"
+    imag_path = "images/yek.jpeg"
+
     
     with image_column:
         img_contact_form = Image.open(imag_path)
