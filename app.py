@@ -3,7 +3,15 @@ import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
 import os 
+#pass
+st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
+# --- Simple gate (password) ---
+PASSWORD = st.secrets.get("APP_PASSWORD") or os.environ.get("APP_PASSWORD")
+pw = st.text_input("Enter password:", type="password")
+if pw != PASSWORD:
+    st.stop()
+    
 # page config
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
