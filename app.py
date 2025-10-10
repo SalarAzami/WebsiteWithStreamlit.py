@@ -35,7 +35,7 @@ with st.container():
     st.subheader("Hello, I'm MOSA👋🏽 ")
     st.title("A Data & Process Analyst From IRAN ")
     st.write("I am passionate about finding ways to use 'PYTHON' and VBA to be more efficient")
-    st.write("[Learn More >](www.linkedin.com/in/mo-salar-azami-579075128)")
+    #st.write("[Learn More >](www.linkedin.com/in/mo-salar-azami-579075128)")
 
 
 
